@@ -1,0 +1,6 @@
+projectKey=simple-php-frontend
+serverUrl=http://ec2-54-242-25-120.compute-1.amazonaws.com:9000
+serverVersion=10.5.1.90531
+dashboardUrl=http://ec2-54-242-25-120.compute-1.amazonaws.com:9000/dashboard?id=simple-php-frontend
+ceTaskId=d4ea732c-11e0-48f7-ac3c-f7a3091687ee
+ceTaskUrl=http://ec2-54-242-25-120.compute-1.amazonaws.com:9000/api/ce/task?id=d4ea732c-11e0-48f7-ac3c-f7a3091687ee
