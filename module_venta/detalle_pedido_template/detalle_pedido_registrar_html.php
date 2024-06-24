@@ -6,7 +6,7 @@
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-          CURLOPT_URL => 'https://cevicherias.informaticapp.com/DetallePedido',
+          CURLOPT_URL => 'http://ec2-54-81-75-101.compute-1.amazonaws.com/DetallePedido',
           CURLOPT_RETURNTRANSFER => true,
           CURLOPT_ENCODING => '',
           CURLOPT_MAXREDIRS => 10,
@@ -42,7 +42,7 @@
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-      CURLOPT_URL => 'https://cevicherias.informaticapp.com/pedidos',
+      CURLOPT_URL => 'http://ec2-54-81-75-101.compute-1.amazonaws.com/pedidos',
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_ENCODING => '',
       CURLOPT_MAXREDIRS => 10,

@@ -4,7 +4,7 @@
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-      CURLOPT_URL => 'https://cevicherias.informaticapp.com/proveedores/'.$_POST['prov_id'],
+      CURLOPT_URL => 'http://ec2-54-81-75-101.compute-1.amazonaws.com/proveedores/'.$_POST['prov_id'],
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_ENCODING => '',
       CURLOPT_MAXREDIRS => 10,
@@ -33,7 +33,7 @@
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-      CURLOPT_URL => 'https://cevicherias.informaticapp.com/proveedores/'.$_GET['prov_id'],
+      CURLOPT_URL => 'http://ec2-54-81-75-101.compute-1.amazonaws.com/proveedores/'.$_GET['prov_id'],
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_ENCODING => '',
       CURLOPT_MAXREDIRS => 10,

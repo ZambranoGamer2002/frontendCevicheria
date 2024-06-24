@@ -4,7 +4,7 @@
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-      CURLOPT_URL => 'https://cevicherias.informaticapp.com/productos/'.$_POST['prod_id'],
+      CURLOPT_URL => 'http://ec2-54-81-75-101.compute-1.amazonaws.com/productos/'.$_POST['prod_id'],
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_ENCODING => '',
       CURLOPT_MAXREDIRS => 10,
@@ -37,7 +37,7 @@
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-      CURLOPT_URL => 'https://cevicherias.informaticapp.com/productos/'.$_GET['prod_id'],
+      CURLOPT_URL => 'http://ec2-54-81-75-101.compute-1.amazonaws.com/productos/'.$_GET['prod_id'],
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_ENCODING => '',
       CURLOPT_MAXREDIRS => 10,
@@ -59,7 +59,7 @@
 		$curl = curl_init();
 
     curl_setopt_array($curl, array(
-      CURLOPT_URL => 'https://cevicherias.informaticapp.com/TipoProducto',
+      CURLOPT_URL => 'http://ec2-54-81-75-101.compute-1.amazonaws.com/TipoProducto',
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_ENCODING => '',
       CURLOPT_MAXREDIRS => 10,

@@ -1,0 +1,7 @@
+services:
+   appphp:
+    image: frontendcevicheria
+    container_name: frontendcevicheriaphp
+    #restart: always
+    ports:
+      - 81:81
