@@ -1,10 +1,7 @@
 # ignore directories
-**/.scannerwork
 **/.phpunit.cache
 **/test
 **/.dockerignore
-**/.git
-**/.gitignore
 **/vendor
 
 # ignore files
