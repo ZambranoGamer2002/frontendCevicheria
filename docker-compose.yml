@@ -4,4 +4,4 @@ services:
     container_name: frontendcevicheriaphp
     #restart: always
     ports:
-      - 81:81
+      - 81:80
